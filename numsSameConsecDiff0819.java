@@ -23,25 +23,7 @@ public class numsSameConsecDiff0819{
             return arrN.stream().mapToInt(i->i).toArray(); //List<Integer> to int[]
         }
     }
-    
-
-
-
-
-
-    // private void dfs(int N, int num, int K, List<Integer> results){
-    //     if (N==0) {
-    //         results.add(num);
-    //         return;
-    //     }
-        
-    //     Integer tailDigit = num%10;
-    //     if(tailDigit + K <10){
-    //         dfs(N-1, num*10+tailDigit+K, )
-    //     }
-    // }
-
-    
+       
     public static void main(String[] args){
         int N=3;
         int K=7;
